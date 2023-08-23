@@ -44,6 +44,7 @@ nav {
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    backdrop-filter: blur(10px);
 }
 
 nav ul.links {
@@ -194,4 +195,145 @@ header .send {
     font-style: normal;
     font-weight: 800;
     line-height: 91%;
+}
+
+
+.showcase {
+    padding: 100px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.showcase .man .left h1 {
+    display: flex;
+    justify-content: center;
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 91%;
+}
+
+.showcase .man {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.showcase .man p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 505px;
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%;
+}
+
+.showcase .man .right img {
+    width: 399px;
+    height: 399px;
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.god h1 {
+    display: flex;
+    justify-content: center;
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91%;
+}
+
+
+.head .card {
+    width: 295px;
+    height: 245px;
+    border-radius: 5px;
+    background: rgba(82, 0, 217, 0.10);
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.head .card {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.conter {
+    padding: 100px 0;
+}
+
+.conter ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 91%;
+}
+
+.omn h1 {
+    display: flex;
+    justify-content: center;
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91%;
+}
+
+.scol {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.scol .card {
+    width: 291px;
+    height: 220px;
+    border-radius: 5px;
+    background: rgba(82, 0, 217, 0.10);
+    color: #11002D;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
 }
